@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: shop-svc
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: yan
+    password: yan
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+server:
+  port: 8090
